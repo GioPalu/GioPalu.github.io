@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OnTrack – Privacy</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 24px 16px;
+        line-height: 1.6;
+        color: #1a1a1a;
+        background: #fff;
+      }
+      a {
+        color: #c62828;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: #eee;
+          background: #121212;
+        }
+        a {
+          color: #ef5350;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p><a href="privacy.html" lang="it">Versione italiana</a></p>
+    <h1>OnTrack privacy policy</h1>
+    <p>Last updated: 11 November 2026</p>
+
+    <h2>Who is responsible</h2>
+    <p>
+      OnTrack is an app developed by Giovanni Palu. Contact:
+      <a href="mailto:palugio96@gmail.com">palugio96@gmail.com</a>.
+    </p>
+
+    <h2>What data the app uses</h2>
+    <ul>
+      <li>
+        <strong>Use without an account</strong> (optional): the app creates an anonymous user, with no email or name,
+        which only recognizes that device. Google or Microsoft services are not used until the user links an account;
+        when an account is linked, the data already entered moves to that account.
+      </li>
+      <li><strong>Google account</strong>: email address, name and profile picture, to identify the user.</li>
+      <li>
+        <strong>Google Calendar</strong>: list of calendars and events of the chosen calendar (title, times, color).
+        Normally the app only reads them. With the optional edit permission (which the user grants to Google only if
+        they wish, from Settings), the app can create an event, move it (day, start and end) or delete it ("Edit the
+        calendar from the app", "Delete events from the app"), always and only when the user asks for that event, and
+        only on calendars they own. Events it creates get the title and color chosen by the user; in other events it
+        does not change the title, color or any other data.
+      </li>
+      <li>
+        <strong>Google Drive (only files created by the app)</strong>: the app creates an "OnTrack" folder and saves
+        backup files there. It cannot see or change the other files in Drive.
+      </li>
+      <li>
+        <strong>Microsoft account</strong> (optional, to sign in to the app or link Outlook): email address and profile
+        name, to identify the user.
+      </li>
+      <li>
+        <strong>Outlook calendar</strong>: list of calendars, categories with their color and events of the chosen
+        calendars (title, times, category). The same rules as Google Calendar apply: normally read-only; creating,
+        moving or deleting a single event only when the user asks for it, if they have turned on the related options.
+      </li>
+      <li>
+        <strong>OneDrive (only the app folder)</strong>: the app saves backup files in its "Apps/OnTrack" folder. It
+        cannot see or change the other files in OneDrive.
+      </li>
+      <li>
+        <strong>Data entered in the app</strong>: start and end times of the activities carried out, events created only
+        in the app ("OnTrack only": title, activity, times) and settings.
+      </li>
+      <li>
+        <strong>Language and region</strong>: language, country, date and time format, first day of the week and time
+        zone chosen in the app, to show the app in the right language and count days and times in the user's time zone.
+      </li>
+      <li>
+        <strong>Backup on the device</strong> (optional): the app saves backup files in the device folder chosen by the
+        user and reads only the files the user chooses for a restore. These files stay on the device and the app does
+        not send them to anyone (for a restore, the content of the chosen file is sent to the OnTrack server to replace
+        the user's data).
+      </li>
+    </ul>
+
+    <h2>How it is used</h2>
+    <p>
+      The data is used only to make the app work: showing the day, sending notifications, calculating statistics and
+      making backups. It is not sold, not used for advertising and not shared with third parties. The same applies to
+      the data received from Microsoft (Microsoft Graph).
+    </p>
+    <p>
+      The use and transfer of information received from Google APIs complies with the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy"
+        >Google API Services User Data Policy</a
+      >, including the Limited Use requirements.
+    </p>
+
+    <h2>Where it is stored</h2>
+    <p>
+      The data is stored on Supabase (servers in the European Union), protected so that each user can access only their
+      own. Access credentials for Google and Microsoft are stored on the server in protected form and are never visible
+      to other users. Backups are in the user's Google Drive and/or OneDrive and/or in a folder on their device,
+      according to their choice.
+    </p>
+
+    <h2>How to delete the data</h2>
+    <ul>
+      <li>
+        In the app: Settings → Account → "Delete account and data" permanently deletes the account and all the data kept
+        by OnTrack. Without an account, "Sign out" also deletes all the data on the server.
+      </li>
+      <li>
+        Revoke OnTrack's access to your Google account at
+        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+      </li>
+      <li>
+        Revoke OnTrack's access to your Microsoft account at
+        <a href="https://account.live.com/consent/Manage">account.live.com/consent/Manage</a> (personal accounts) or at
+        <a href="https://myapps.microsoft.com">myapps.microsoft.com</a> (work or school accounts).
+      </li>
+      <li>
+        Ask for all your data to be deleted by writing to
+        <a href="mailto:palugio96@gmail.com">palugio96@gmail.com</a>.
+      </li>
+      <li>
+        Backups can be deleted by the user at any time, by deleting the "OnTrack" folder on Google Drive, "Apps/OnTrack"
+        on OneDrive or the backup files in the chosen folder on the device.
+      </li>
+    </ul>
+  </body>
+</html>
